@@ -5,6 +5,7 @@
      <TodoList v-bind:propsdata="todoItems"></TodoList>
      <TodoFooter v-on:removeAll="clearAll"></TodoFooter>
   </div>
+  <span></span>
 </template>
 
 <script>
